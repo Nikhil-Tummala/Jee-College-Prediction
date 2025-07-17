@@ -1,0 +1,70 @@
+{
+  "data": {
+    "raw_data_path": "data/raw/",
+    "processed_data_path": "data/processed/",
+    "file_formats": {
+      "input": "pkl",
+      "output": "pkl"
+    }
+  },
+  "scraping": {
+    "base_url": "https://josaa.admissions.nic.in/applicant/seatmatrix/openingclosingrankarchieve.aspx",
+    "start_year": 2023,
+    "end_year": 2016,
+    "max_rounds": 6,
+    "delay_between_requests": 1,
+    "retry_attempts": 3
+  },
+  "model": {
+    "model_path": "models/",
+    "model_name": "jee_model.joblib",
+    "random_state": 42,
+    "test_size": 0.2,
+    "cross_validation_folds": 5,
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    }
+  },
+  "features": {
+    "input_features": [
+      "Opening Rank",
+      "Gender",
+      "Seat Type"
+    ],
+    "target_features": [
+      "Institute",
+      "round"
+    ],
+    "categorical_features": [
+      "Gender",
+      "Seat Type"
+    ],
+    "numerical_features": [
+      "Opening Rank"
+    ]
+  },
+  "preprocessing": {
+    "handle_missing_values": true,
+    "missing_value_strategy": {
+      "Gender": "Neutral",
+      "numeric_columns": "median"
+    },
+    "outlier_removal": {
+      "enabled": true,
+      "method": "iqr",
+      "columns": ["Opening Rank", "Closing Rank"]
+    },
+    "scaling": {
+      "enabled": true,
+      "method": "standard"
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "log_file": "logs/jee_prediction.log"
+  }
+}
