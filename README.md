@@ -201,7 +201,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Tummala Nikhil Phaneendra**
 - GitHub: [@Nikhil-Tummala](https://github.com/Nikhil-Tummala)
-- LinkedIn: [Nikhil Phaneendra Tummal](https://linkedin.com/in/nikhil-tummala)
+- LinkedIn: [Nikhil Phaneendra Tummala](https://linkedin.com/in/nikhil-tummala)
 
 ## 🙏 Acknowledgments
 
