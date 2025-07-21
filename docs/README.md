@@ -94,7 +94,6 @@ JEE College Prediction is a machine learning project that predicts college admis
 - **Multi-Output Model**: Predicts both institute and round simultaneously
 - **Easy-to-Use API**: Simple Python API and command-line interface
 - **Comprehensive Data**: Based on historical JOSAA admission data
-- **Professional Structure**: Industry-standard project organization
 
 ### Project Structure
 
