@@ -204,7 +204,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - LinkedIn: [Nikhil Phaneendra Tummala](https://linkedin.com/in/nikhil-tummala)
 
 **Gunnam Pavan Sri Ram Manikanta**
-- GitHub: [@GunnamPavan](https://github.com/gunnampavan19)
+- GitHub: [@GunnamPavan](https://github.com/pavangunnam19)
 - LinkedIn: [Gunnam Pavan Sri Ram Manikanta](https://in.linkedin.com/in/pavan-gunnam-5a790a235)
 
 ## 🙏 Acknowledgments
